@@ -11,6 +11,13 @@
 		697C32A82890007A00E4DADF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697C32A72890007A00E4DADF /* ContentView.swift */; };
 		697C32AA2890007D00E4DADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 697C32A92890007D00E4DADF /* Assets.xcassets */; };
 		697C32AD2890007D00E4DADF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 697C32AC2890007D00E4DADF /* Preview Assets.xcassets */; };
+		697C32B82890035100E4DADF /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697C32B72890035100E4DADF /* NavigationView.swift */; };
+		697C32BA2890037100E4DADF /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697C32B92890037100E4DADF /* TopView.swift */; };
+		697C32BC2890038D00E4DADF /* AccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697C32BB2890038D00E4DADF /* AccountsView.swift */; };
+		697C32BE289003A500E4DADF /* CreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697C32BD289003A500E4DADF /* CreditCardView.swift */; };
+		697C32C0289003C400E4DADF /* OffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697C32BF289003C400E4DADF /* OffersView.swift */; };
+		697C32C2289003DC00E4DADF /* LastTransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697C32C1289003DC00E4DADF /* LastTransactionsView.swift */; };
+		697C32C6289004FA00E4DADF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697C32C5289004FA00E4DADF /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		697C32A72890007A00E4DADF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		697C32A92890007D00E4DADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		697C32AC2890007D00E4DADF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		697C32B72890035100E4DADF /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		697C32B92890037100E4DADF /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		697C32BB2890038D00E4DADF /* AccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsView.swift; sourceTree = "<group>"; };
+		697C32BD289003A500E4DADF /* CreditCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardView.swift; sourceTree = "<group>"; };
+		697C32BF289003C400E4DADF /* OffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersView.swift; sourceTree = "<group>"; };
+		697C32C1289003DC00E4DADF /* LastTransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastTransactionsView.swift; sourceTree = "<group>"; };
+		697C32C5289004FA00E4DADF /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,15 @@
 			isa = PBXGroup;
 			children = (
 				697C32A52890007A00E4DADF /* SwiftUIBankApp.swift */,
+				697C32C3289004A600E4DADF /* Views */,
+				697C32BD289003A500E4DADF /* CreditCardView.swift */,
+				697C32BF289003C400E4DADF /* OffersView.swift */,
+				697C32C1289003DC00E4DADF /* LastTransactionsView.swift */,
+				697C32B72890035100E4DADF /* NavigationView.swift */,
+				697C32B92890037100E4DADF /* TopView.swift */,
 				697C32A72890007A00E4DADF /* ContentView.swift */,
+				697C32BB2890038D00E4DADF /* AccountsView.swift */,
+				697C32C4289004C800E4DADF /* Utilities */,
 				697C32A92890007D00E4DADF /* Assets.xcassets */,
 				697C32AB2890007D00E4DADF /* Preview Content */,
 			);
@@ -65,6 +87,21 @@
 				697C32AC2890007D00E4DADF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		697C32C3289004A600E4DADF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		697C32C4289004C800E4DADF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				697C32C5289004FA00E4DADF /* Extension.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				697C32C6289004FA00E4DADF /* Extension.swift in Sources */,
+				697C32BC2890038D00E4DADF /* AccountsView.swift in Sources */,
+				697C32C0289003C400E4DADF /* OffersView.swift in Sources */,
 				697C32A82890007A00E4DADF /* ContentView.swift in Sources */,
+				697C32B82890035100E4DADF /* NavigationView.swift in Sources */,
+				697C32BA2890037100E4DADF /* TopView.swift in Sources */,
+				697C32C2289003DC00E4DADF /* LastTransactionsView.swift in Sources */,
 				697C32A62890007A00E4DADF /* SwiftUIBankApp.swift in Sources */,
+				697C32BE289003A500E4DADF /* CreditCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
